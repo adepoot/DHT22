@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Room Status</string>
+
+    <string name="category_present">Status</string>
+    <string name="category_temperature">Temperature</string>
+    <string name="category_humidity">Humidity</string>
+</resources>
