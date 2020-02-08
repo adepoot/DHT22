@@ -33,7 +33,7 @@ public class StatusFragmentViewModel extends ViewModel {
         Log.d(LOG_TAG, "getDataFromTS");
         mService = ApiUtils.getTSService();
 
-        mService.getAnswers("4").enqueue(new retrofit2.Callback<TSAnswersResponse>() {
+        mService.getAnswers().enqueue(new retrofit2.Callback<TSAnswersResponse>() {
             @Override
             public void onResponse(Call<TSAnswersResponse> call, Response<TSAnswersResponse> response) {
                 Log.i(LOG_TAG, "onResponse");
